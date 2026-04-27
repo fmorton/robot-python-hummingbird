@@ -1,0 +1,7 @@
+Name                                                                                              Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------------------------------
+/Users/fmorton/GitHub/robot-python-hummingbird/src/robot/hummingbird_dual_motor_driver.py            34      7    79%   19, 22, 25-26, 33, 39, 42
+/Users/fmorton/GitHub/robot-python-hummingbird/src/robot/hummingbird_l298n_dual_motor_driver.py      12      0   100%
+hummingbird_l298n_dual_motor_driver/test_l298n_dual_motor_driver.py                                  34      0   100%
+-------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                80      7    91%
