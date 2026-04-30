@@ -17,8 +17,8 @@ def move_right_motor(hummingbird_motors, speed):
 def test_l298n():
     hummingbird = Hummingbird()
 
-    #hummingbird_motors = HummingbirdL298nDualMotorDriver(hummingbird)
-    hummingbird_motors = HummingbirdTb6612fngDualMotorDriver(hummingbird)
+    hummingbird_motors = HummingbirdL298nDualMotorDriver(hummingbird)
+    #hummingbird_motors = HummingbirdTb6612fngDualMotorDriver(hummingbird)
 
     move_left_motor(hummingbird_motors, 50)
     move_left_motor(hummingbird_motors, 100)
