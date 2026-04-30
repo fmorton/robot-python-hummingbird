@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "robot-hummingbird"
-version = "0.3.2"
+version = "0.3.3"
 description = "Hummingbird general python support (dual motor controllers)."
 readme = "README.rst"
 requires-python = ">=3.9"
