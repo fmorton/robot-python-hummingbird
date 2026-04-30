@@ -2,7 +2,7 @@ from collections.abc import Sequence
 
 
 class HummingbirdDualMotorDriver:
-    MINIMUM_SPEED = 30
+    MINIMUM_SPEED = 0
 
     def __init__(self, hummingbird, minimum_speed=None):
         self.minimum_speed = minimum_speed
