@@ -1,5 +1,6 @@
 from robot.hummingbird import Hummingbird
 from robot.hummingbird_l298n_dual_motor_driver import HummingbirdL298nDualMotorDriver
+from robot.hummingbird_tb6612fng_dual_motor_driver import HummingbirdTb6612fngDualMotorDriver
 from time import sleep
 
 
@@ -16,7 +17,8 @@ def move_right_motor(hummingbird_motors, speed):
 def test_l298n():
     hummingbird = Hummingbird()
 
-    hummingbird_motors = HummingbirdL298nDualMotorDriver(hummingbird)
+    #hummingbird_motors = HummingbirdL298nDualMotorDriver(hummingbird)
+    hummingbird_motors = HummingbirdTb6612fngDualMotorDriver(hummingbird)
 
     move_left_motor(hummingbird_motors, 50)
     move_left_motor(hummingbird_motors, 100)
