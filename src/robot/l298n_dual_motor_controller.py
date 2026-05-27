@@ -1,7 +1,7 @@
-from robot.hummingbird_dual_motor_driver import HummingbirdDualMotorDriver
+from robot.dual_motor_controller import DualMotorController
 
 
-class HummingbirdL298nDualMotorDriver(HummingbirdDualMotorDriver):
+class L298nDualMotorController(DualMotorController):
     def move_left_motor(self, speed):
         speed = self.adjust_speed_for_polarity(speed, self.left_polarity)
 
