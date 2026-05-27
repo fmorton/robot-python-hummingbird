@@ -63,7 +63,7 @@ You can also install the in-development version with::
 
 
 Motor Controller Example with a Birdbrain Hummingbird
-=================================================
+=====================================================
 
 .. code-block:: python
 
